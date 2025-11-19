@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MoPro — Tracks</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1 class="logo" data-nav-logo>✮MoodProgress</h1>
+    <nav class="nav-icons">
+      <a href="home.html" data-nav aria-label="Home"><i class="fa-solid fa-house"></i><span class="nav-label">Home</span></a>
+      <a href="notes.html" data-nav aria-label="Notes"><i class="fa-solid fa-pen"></i><span class="nav-label">Notes</span></a>
+      <a href="tracks.html" data-nav aria-label="Tracks"><i class="fa-solid fa-list-check"></i><span class="nav-label">Tracks</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="archive" class="container">
+      <h2 class="section-title">Archive</h2>
+
+      <div class="mode-switch">
+        <button id="archiveJournalBtn" class="mode-btn active">Journal Archive</button>
+      </div>
+
+      <div id="archiveJournal" class="list"></div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>© 2025 MoodProgress</p>
+  </footer>
+</body>
+</html>

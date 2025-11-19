@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MoPro — Home</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <!-- font awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1 class="logo" data-nav-logo>✮MoodProgress</h1>
+    <nav class="nav-icons">
+      <a href="home.html" data-nav aria-label="Home"><i class="fa-solid fa-house"></i><span class="nav-label">Home</span></a>
+      <a href="notes.html" data-nav aria-label="Notes"><i class="fa-solid fa-pen"></i><span class="nav-label">Notes</span></a>
+      <a href="tracks.html" data-nav aria-label="Tracks"><i class="fa-solid fa-list-check"></i><span class="nav-label">Tracks</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-left">
+        <h2 class="headline">Welcome to <span class="accent">MoodProgress.</span></h2>
+        <p class="sub">MoPro hadir untuk teman cerita dan berkembang</p>
+
+        <div class="home-actions">
+          <a class="btn primary pulse" id="mulaiBtn" href="notes.html"><i class="fa-solid fa-pen-to-square"></i> Tell Us</a>
+          <a class="btn ghost" href="tracks.html"><i class="fa-solid fa-list-check"></i> Archive</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="floating card c1">Be Happy</div>
+        <div class="floating card c2">Be Pround</div>
+        <div class="floating card c3">Be Yourself</div>
+      </div>
+    </section>
+
+    <section class="container features">
+      <h3 class="section-title">About MoPro section</h3>
+      <div class="how-grid">
+        <div class="how card hover-pop">
+          <div class="icon">📝</div>
+          <h4>Notes</h4>
+          <p>Tuliskan apa yang kamu rasakan dan pikirkan</p>
+        </div>
+        <div class="how card hover-pop">
+          <div class="icon">📈</div>
+          <h4>Tracks</h4>
+          <p>Menyimpan apa yang sudah kamu lakukan dan capai melalui MoPro</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 MoodProgress</p>
+  </footer>
+</body>
+</html>
